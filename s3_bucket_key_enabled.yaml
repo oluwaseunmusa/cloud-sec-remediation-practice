@@ -1,0 +1,12 @@
+#
+# Guard Policy to check if S3 Bucket Key is enabled
+#
+rule s3_bucket_key_enabled when resourceType == "AWS::S3::Bucket" {
+    # Check if Bucket Encryption is configured
+    configuration.serverSideEncryptionConfiguration.rules[*] {
+        applyServerSideEncryptionByDefault exists
+        applyServerSideEncryptionByDefault.bucketKeyEnabled == true
+    }
+}
+```
+This code defines a Guard Policy rule that checks if the S3 Bucket Key is enabled for server-side encryption. The rule uses the `serverSideEncryptionConfiguration` configuration block to check if the `applyServerSideEncryptionByDefault` rule exists and if the `bucketKeyEnabled` property is set to `true`.
