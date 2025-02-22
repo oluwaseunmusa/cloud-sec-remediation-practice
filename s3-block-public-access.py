@@ -25,7 +25,7 @@ def lambda_handler(event, context):
         print()
         return {
             'statusCode': 200,
-            'body': f"Public access disabled for bucket: {bucket_name} ❌"
+            'body': f"Public access disabled for bucket: {bucket_name} 🚀"
         }
     except Exception as e:
         print()

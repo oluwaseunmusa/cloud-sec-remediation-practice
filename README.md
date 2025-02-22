@@ -89,5 +89,3 @@ In this walkthrough, we'll remediate an S3 bucket that does not have logging ena
 - Dive deeper into the **AWS Well-Architected Framework** and **Cloud Adoption Framework** for advanced security practices.
 
 Let’s get started and secure your cloud environment! 🚀
-
-aws configservice delete-configuration-recorder --configuration-recorder-name default
