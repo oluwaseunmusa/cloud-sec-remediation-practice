@@ -1,6 +1,6 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsuperissy%2Fcloud-sec-remediation-practice.git&countColor=%2337d67a&labelStyle=upper)
 
-# Hands-On Session: Cloud Security with AWS
+# Hands-On Session: Cloud Security with AWS - AWS User Group Nigeria
 
 Welcome to this hands-on session designed for cloud professionals and those transitioning into cloud security. This session will focus on **Cloud Security**, **AWS Well-Architected Framework**, and **AWS Cloud Adoption Framework (CAF)**. We'll also dive into **detective and responsive capabilities** in the cloud, and how to **tag and resolve misconfigured or vulnerable resources**. By the end of this session, you'll have practical experience with **AWS Config Rules**, **Security Hub**, and **GuardDuty**, along with a coding walkthrough to remediate findings using **AWS Systems Manager (SSM)**.
 
